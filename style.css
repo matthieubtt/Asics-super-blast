@@ -1,0 +1,161 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Hero */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: url('running-background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #ff3300;
+}
+
+/* Features */
+.features {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+}
+
+.features h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.feature {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #ff6600;
+}
+
+/* Reviews */
+.reviews {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.reviews h2 {
+    margin-bottom: 1.5rem;
+}
+
+.review {
+    margin: 1rem 0;
+}
+
+.review h4 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    color: #ffcc00;
+}
+
+/* Purchase */
+.purchase {
+    padding: 2rem;
+    text-align: center;
+    background: #ff6600;
+    color: #fff;
+}
+
+.purchase h2 {
+    font-size: 2rem;
+}
+
+.purchase .btn {
+    background: #fff;
+    color: #ff6600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.purchase .btn:hover {
+    background: #ffcc00;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
